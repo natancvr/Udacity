@@ -1,0 +1,29 @@
+/* add your CSS here */
+html{
+
+}
+span{
+  font-weight: bold;
+}
+
+#card{
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 320px;
+}
+
+#card-detail{
+  border: 1px solid gray;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.facts{
+  font-style: italic;
+}
+
+.description{
+
+}
