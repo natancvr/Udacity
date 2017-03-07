@@ -1,29 +1,40 @@
 /* add your CSS here */
-html{
-
-}
 span{
   font-weight: bold;
 }
 
+ul{
+  list-style: none;
+  padding-left: 10px;
+}
+
+h3{
+  color: #abb8c2;
+}
+
 #card{
-  border: 1px solid gray;
+  border: 1px solid #e9eded;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
-  width: 320px;
+  width: 300px;
+  box-shadow: 10px 10px 5px #e9eded;
+  background-color: #0e2f44;
 }
 
 #card-detail{
-  border: 1px solid gray;
+  border: 1px solid #e9eded;
   margin-top: 10px;
   border-radius: 5px;
+  background-color: #C0D6E4;
 }
+
 
 .facts{
   font-style: italic;
+  padding: 10px;
 }
 
 .description{
-
+  padding: 10px;
 }
