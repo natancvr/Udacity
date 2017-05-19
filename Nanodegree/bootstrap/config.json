@@ -382,9 +382,40 @@
     "@hr-border": "@gray-lighter"
   },
   "css": [
+    "print.less",
     "type.less",
+    "code.less",
     "grid.less",
-    "modals.less"
+    "tables.less",
+    "forms.less",
+    "buttons.less",
+    "responsive-utilities.less",
+    "glyphicons.less",
+    "button-groups.less",
+    "input-groups.less",
+    "navs.less",
+    "navbar.less",
+    "breadcrumbs.less",
+    "pagination.less",
+    "pager.less",
+    "labels.less",
+    "badges.less",
+    "jumbotron.less",
+    "thumbnails.less",
+    "alerts.less",
+    "progress-bars.less",
+    "media.less",
+    "list-group.less",
+    "panels.less",
+    "responsive-embed.less",
+    "wells.less",
+    "close.less",
+    "component-animations.less",
+    "dropdowns.less",
+    "tooltip.less",
+    "popovers.less",
+    "modals.less",
+    "carousel.less"
   ],
   "js": [
     "alert.js",
@@ -400,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=42fc0224acb9a0c7235df2aca0f042fa"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=96026ed7bc50129e36143b0400acc5e0"
 }
