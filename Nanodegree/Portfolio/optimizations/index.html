@@ -17,10 +17,20 @@
       td::before{
         position: absolute;
         left: 6px;
-        content: attr(absolute);
+        content: attr(data-th);
         font-weight: bold;
       }
+      thead{
+        display: none;
+      }
     }
+    td {
+        min-width: 75px;
+        text-align: center;
+      }
+      th:first-of-type {
+        min-width: 125px;
+      }
     div.contained_table{
       width: 100%;
       overflow-x: auto;
@@ -45,35 +55,35 @@
             <th>7th</th>
             <th>8th</th>
             <th>9th</th>
-            <th>10th</th>
+            <th>Final</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Toronto</td>
-            <td>0</td>
-            <td>0</td>
-            <td>3</td>
-            <td>2</td>
-            <td>5</td>
-            <td>2</td>
-            <td>3</td>
-            <td>1</td>
-            <td>0</td>
-            <td>2</td>
+            <td data-th="Team">Toronto</td>
+            <td data-th="1st">0</td>
+            <td data-th="2nd">0</td>
+            <td data-th="3rd">3</td>
+            <td data-th="4th">2</td>
+            <td data-th="5th">5</td>
+            <td data-th="6th">2</td>
+            <td data-th="7th">3</td>
+            <td data-th="8th">1</td>
+            <td data-th="9th">0</td>
+            <td data-th="Final">2</td>
           </tr>
           <tr>
-            <td>San Francisco</td>
-            <td>2</td>
-            <td>3</td>
-            <td>1</td>
-            <td>0</td>
-            <td>2</td>
-            <td>0</td>
-            <td>0</td>
-            <td>3</td>
-            <td>2</td>
-            <td>5</td>
+            <td data-th="Team">San Francisco</td>
+            <td data-th="1st">2</td>
+            <td data-th="2nd">3</td>
+            <td data-th="3rd">1</td>
+            <td data-th="4th">0</td>
+            <td data-th="5th">2</td>
+            <td data-th="6th">0</td>
+            <td data-th="7th">0</td>
+            <td data-th="8th">3</td>
+            <td data-th="9th">2</td>
+            <td data-th="Final">5</td>
           </tr>
         </tbody>
       </table>
